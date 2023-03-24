@@ -10,3 +10,6 @@ nav{
 	height: 80px;
 	width: 100%;
 }
+label.logo{
+	color: red;
+}
