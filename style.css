@@ -6,6 +6,7 @@
 	background: white;
 }
 nav{
-	background: transperent;
-	height: 35px;
+	background-color: transparent;
+	height: 80px;
+	width: 100%;
 }
