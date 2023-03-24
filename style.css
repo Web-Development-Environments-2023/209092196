@@ -1,14 +1,9 @@
-*
+#menu
 {
 	position: fixed;
 	width: 100%;
 	height: 35px;
 	background: white;
-	box-sizing: border-box;
-	
-}
-body{
-	font-family: Times New Roman;
 }
 nav{
 	background: transperent;
