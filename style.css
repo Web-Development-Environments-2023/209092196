@@ -5,11 +5,11 @@
 	height: 35px;
 	background: transperent;
 	box-sizing: border-box;
-	margin: 0;
+	
 }
 body{
 	font-family: Times New Roman;
 nav{
-	background: #0082e6;
+	background: transperent;
 	height: 100px;
 }
