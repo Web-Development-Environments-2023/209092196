@@ -1,7 +1,9 @@
 *
 {
-	padding: 0;
-	marging: 0;
+	position: fixed;
+	width: 100%;
+	height: 35px;
+	background: white;
 	box-sizing: border-box;
 }
 nav{
