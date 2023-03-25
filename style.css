@@ -16,3 +16,12 @@ body{
   height: 100%;
   padding: 20px 100px;
 }
+.left{
+	background: url("https://www.trentgalleries.co.uk/assets/Originals/queen-elizabeth-ii.jpeg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.right{
+	padding: 25px 40px;
+}
