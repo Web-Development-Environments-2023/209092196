@@ -1,18 +1,54 @@
-body{
-  width: 100%;
-  height: 100vh;
-  background-image:url(https://qph.cf2.quoracdn.net/main-qimg-da412dd1849505d7572f2b37e429650b);
-  background-repeat: no-repeat;
-  background-size: contain;
-  font-family: 'Alkatra', cursive;
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 85%;
+    height: 90vh;
+    background-size: contain;
+    background-color: ghostwhite; 
+    font-family: 'Alkatra', cursive;
+}
+h1 {
+    margin: 30vh auto;
+    text-align: center;
+    position: relative;
+}
+h1::before{
+    content: "";
+    height: 2px;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: -2;
+    
+
+}
+h1::after {
+    content: "";
+    height: 2px;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -2;
 }
 
-.container{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  alighn-items: center;
-  width: 100%;
-  height: 100%;
-  padding: 20px 100px;
+span {
+    background: ghostwhite;
+}
+h3{
+    margin-bottom: 2rem;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
 }
