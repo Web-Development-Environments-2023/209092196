@@ -1,7 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
-    list-style: none;
     box-sizing: border-box;
 }
 body {
@@ -42,26 +40,26 @@ h1 {
     text-align: center;
     position: relative;
 }
-    h1::before {
-        content: "";
-        height: 2px;
-        width: 100vw;
-        background-color: #352e2e;
-        position: absolute;
-        top: 50%;
-        right: 0;
-        z-index: -2;
-    }
-    h1::after {
-        content: "";
-        height: 2px;
-        width: 100vw;
-        background-color: #352e2e;
-        position: absolute;
-        top: 50%;
-        left: 0;
-        z-index: -2;
-    }
+h1::before {
+    content: "";
+    height: 2px;
+    width: 100vw;
+    background-color: #352e2e;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: -2;
+}
+h1::after {
+    content: "";
+    height: 2px;
+    width: 100vw;
+    background-color: #352e2e;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -2;
+}
 
 span {
     background: #e4dcdc;
