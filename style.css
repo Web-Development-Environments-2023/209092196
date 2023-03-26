@@ -1,13 +1,41 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
+    box-sizing: border-box;
 }
 body {
-    width: 85%;
-    height: 90vh;
+    
     background-size: contain;
-    background-color: ghostwhite; 
+    background-color: #e4dcdc; 
     font-family: 'Alkatra', cursive;
+}
+nav{
+    background: #352e2e;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: #808080;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+}
+
+nav li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav li a{
+    color: white;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active, a:hover {
+    background: #808080;
+    transition: .5s;
 }
 h1 {
     margin: 30vh auto;
