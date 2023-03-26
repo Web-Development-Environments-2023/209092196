@@ -21,6 +21,9 @@
         <li><a href="#spa">Q&A</a></li>
         <li><a href="#contact">Contact Me</a></li>
     </nav>
+    <section>
+
+    </section>
     <section id="about" class="section">
     
         <h1><span>About Me</span></h1>
@@ -116,9 +119,11 @@
             let input2 = document.querySelector('#input2');
             likebtn.addEventListener('click', () => {
                 input1.value = parseInt(input1.value) + 1;
+                input1.style.color = "#168206";
             })
             dislikebtn.addEventListener('click', () => {
                 input2.value = parseInt(input2.value) + 1;
+                input2.style.color = "#ca240d";
             })
         </script>
         <br />
